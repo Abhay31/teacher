@@ -1,0 +1,12 @@
+.logo {
+  height: 44px;
+}
+
+.dropdown-menu {
+  width: 140px;
+  min-width: auto;
+}
+
+.dropdown-item-text {
+  font-weight: bold;
+}

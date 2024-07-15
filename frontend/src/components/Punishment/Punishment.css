@@ -1,0 +1,24 @@
+.custom-table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.custom-table thead th {
+  background-color: rgb(59, 56, 56);
+  color: #fff;
+}
+
+.custom-table th,
+.custom-table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: inherit;
+}

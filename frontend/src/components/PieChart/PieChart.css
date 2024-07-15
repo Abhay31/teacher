@@ -1,0 +1,23 @@
+/* ResponsivePieChart.css */
+.chart-container {
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+    .chart-container {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .chart-container {
+      width: 100%;
+    }
+  }
+  

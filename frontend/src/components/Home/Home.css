@@ -1,0 +1,102 @@
+/* Home.css */
+.container {
+  padding: 20px;
+}
+
+.welcome-message {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.system-status {
+  font-size: 1.2rem;
+  color: gray;
+}
+
+.current-date {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.card-custom-height {
+  height: 150px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Adding box shadow */
+}
+
+.card-custom-height1 {
+  height: 500px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Adding box shadow */
+}
+
+.back {
+  background-color: #333; /* Adjust this as per your design */
+}
+
+.back1 {
+  background-color: #70ccd4;
+}
+
+.back2 {
+  background-color: #7978e9;
+}
+
+.back3 {
+  background-color: #f3797e;
+}
+
+.back4 {
+  background-color: #4b49ac;
+}
+
+@media (max-width: 768px) {
+  .welcome-message {
+    font-size: 1.5rem;
+  }
+
+  .system-status {
+    font-size: 1rem;
+  }
+
+  .current-date {
+    text-align: left;
+  }
+}
+
+@media (max-width: 576px) {
+  .welcome-message {
+    font-size: 1.2rem;
+  }
+
+  .system-status {
+    font-size: 0.9rem;
+  }
+
+  .current-date {
+    font-size: 1rem;
+    text-align: left;
+  }
+}
+
+.table-responsive {
+  max-height: 400px;
+  overflow-y: auto;
+}
+.btn-style {
+  background: linear-gradient(-279deg, #70ccd4, #7978e9) !important;
+}
+
+.custom-table {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.custom-table thead th {
+  background-color: rgb(59, 56, 56);
+  color: #fff;
+}
+
+.custom-table th,
+.custom-table td {
+  vertical-align: middle;
+  text-align: center;
+}

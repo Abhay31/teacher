@@ -1,0 +1,149 @@
+/* .custom-dropdown .form-select {
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da; 
+    font-size: 0.9rem; 
+    color: #495057; 
+    cursor: pointer;
+  }
+  
+  .custom-dropdown .form-select:focus {
+    border-color: #80bdff; 
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+  }
+
+  .color1{
+    background-color: rgb(176, 83, 176);
+  }
+
+  .Modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: auto;
+    bottom: auto;
+    margin-right: '-50%';
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: '0 4px 8px rgba(0, 0, 0, 0.1)';
+}
+
+.Overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: 'rgba(0, 0, 0, 0.75)';
+}
+
+.progress-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.progress {
+  flex-grow: 1;
+  text-align: center;
+  font-weight: bold;
+  color: #555;
+  position: relative;
+  padding: 20px;
+}
+
+.progress.active {
+  color: #007bff;
+}
+
+@media (max-width: 576px) {
+  .progress-container {
+    flex-direction: column;
+  }
+} */
+
+/* .container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+} */
+
+.progress-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 2px solid #d3d3d3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.circle.active {
+  border-color: #007bff;
+  background-color: #007bff;
+  color: white;
+}
+
+.line {
+  flex-grow: 1;
+  height: 2px;
+  background-color: #d3d3d3;
+  margin: 0 10px;
+}
+
+.line.active {
+  background-color: #007bff;
+}
+
+.labels {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.labels span {
+  width: 30%;
+  text-align: center;
+  font-size: 14px;
+}
+
+.color1{
+  background: linear-gradient(-279deg, #70ccd4, #7978e9);
+}
+
+modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: '-50%';
+  transform: translate(-50%, -50%);
+  width: 400px;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: '0 4px 8px rgba(0, 0, 0, 0.1)';
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: 'rgba(0, 0, 0, 0.75)';
+}

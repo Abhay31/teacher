@@ -1,0 +1,13 @@
+.custom-dropdown .form-select {
+    border-radius: 0.5rem;
+    border: 1px solid #ced4da; 
+    font-size: 0.9rem; 
+    color: #495057; 
+    cursor: pointer;
+  }
+  
+  .custom-dropdown .form-select:focus {
+    border-color: #80bdff; 
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+    /* cursor: pointer; */
+  }

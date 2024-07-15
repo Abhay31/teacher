@@ -1,0 +1,180 @@
+/* .sidebar {
+  width: 250px;
+  flex: 0 0 250px;
+  position: fixed; 
+  top: 60px; 
+  bottom: 0;
+  padding-top: 20px;
+  transition: width 0.3s ease;  
+}
+
+.sidebar-icon{
+  color: #fff;
+  margin-right: 10px;
+}
+
+.sidebar-icon1{
+  color: #333;
+  margin-right: 10px;
+}
+
+.bg1{
+  background: linear-gradient(-279deg, #70ccd4, #7978e9) !important;
+}
+
+.sidebar-nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.sidebar-nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.link-text {
+  display: inline;
+}
+
+.link-text{
+  color: #fff;
+}
+
+.link-text1{
+  color: #333;
+}
+
+.hover-active{
+  background-color: #f1f1f1;
+  color: #333;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 80px;
+  }
+
+  .main-content {
+    margin-left: 80px;
+  }
+
+  .sidebar-nav a {
+    justify-content: center;
+  }
+
+  .link-text {
+    display: none;
+  }
+
+  .link-text1{
+    display: none;
+  }
+
+} */
+
+.sidebar {
+  width: 250px;
+  flex: 0 0 250px;
+  position: fixed; 
+  top: 60px; 
+  bottom: 0;
+  padding-top: 20px;
+  transition: width 0.3s ease;  
+}
+
+.sidebar-icon {
+  color: #fff;
+  margin-right: 10px;
+}
+
+.sidebar-icon1 {
+  color: #333;
+  margin-right: 10px;
+}
+
+.bg1 {
+  background: linear-gradient(-279deg, #70ccd4, #7978e9) !important;
+}
+
+.sidebar-nav {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-nav li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.sidebar-nav a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 10px;
+  justify-content: space-between; 
+}
+
+.link-text {
+  color: #fff;
+}
+
+.link-text1 {
+  color: #333;
+}
+
+.hover-active {
+  background-color: #f1f1f1;
+  color: #333;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.hover-icon{
+  color: #fff;
+  margin-left: auto;
+}
+
+.hover-icon1{
+  color: #333;
+  margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 80px;
+  }
+
+  .main-content {
+    margin-left: 80px;
+  }
+
+  .sidebar-nav a {
+    justify-content: center;
+  }
+
+  .link-text {
+    display: none;
+  }
+
+  .link-text1 {
+    display: none;
+  }
+
+  .hover-icon{
+    display: none;
+  }
+
+  .hover-icon1{
+    display: none;
+  }
+
+}

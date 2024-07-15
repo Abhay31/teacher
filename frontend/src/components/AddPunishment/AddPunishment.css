@@ -1,0 +1,65 @@
+.card-custom-height1{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.form-container .form-group {
+    width: 100%;
+}
+
+.form-container button {
+    align-self: center;
+}
+
+.btn1{
+    width: 100px;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none;
+    border-radius: 0.25rem;
+}
+
+.form-control[multiple] {
+    height: auto;
+    border-radius: 10px;
+}
+
+.form-control option {
+    border-radius: 10px;
+    font-size: 1.1rem;
+}
+
+.form-control option:hover {
+    background: gray;
+    color: #fff;
+}
+
+.form-control[multiple]:focus {
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none;
+}
+
+.custom-select option:checked {
+    background-color: green;
+    color: white;
+}

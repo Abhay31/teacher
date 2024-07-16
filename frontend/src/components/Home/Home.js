@@ -40,15 +40,15 @@ const Home = ({ user }) => {
 
   return (
     <div className="container mt-3">
-      <div className="row my-4 align-items-center">
+      <div className="row my-4 align-items-center p-3 rounded-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.1)' }}>
         <div className="col-md-8 col-sm-12">
-          <h1 className="welcome-message">
-            Welcome {capitalizeFirstLetter(user.name)}
+          <h1 className="welcome-message" style={{fontFamily: 'Georgia, serif', color: "#000325"}}>
+            Welcome {capitalizeFirstLetter(user.name)} !
           </h1>
-          <p className="system-status">All systems are running smoothly</p>
+          <p className="system-status text-success">All systems are running smoothly...</p>
         </div>
         <div className="col-md-4 col-sm-12 text-md-end text-sm-start">
-          <p className="current-date">
+          <p className="current-date" style={{color: "#000325"}}>
             <MdDateRange className="m-2" size={23} />
             {currentDate}
           </p>

@@ -1,5 +1,6 @@
 .card-custom-height1{
     box-shadow: 0 2px 6px rgba(91, 91, 91, 0.3);
+    height: 450px;
 }
 
 .form-container .form-group {
@@ -60,11 +61,11 @@
 }
 
 .custom-select option:checked {
-    background-color: green;
+    background-color: blue;
     color: white;
 }
 
-.AddPunishment{
+.UpdatePunishment{
     font-family: Georgia serif;
     color:rgb(0, 37, 92);
     font-weight: bold;

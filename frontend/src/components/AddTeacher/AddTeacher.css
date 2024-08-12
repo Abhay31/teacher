@@ -96,7 +96,7 @@
   color: white;
 }
 
-.line {
+/* .line {
   flex-grow: 1;
   height: 2px;
   background-color: #d3d3d3;
@@ -105,7 +105,7 @@
 
 .line.active {
   background-color: #007bff;
-}
+} */
 
 .labels {
   display: flex;
@@ -124,7 +124,7 @@
   background: linear-gradient(-279deg, #70ccd4, #7978e9);
 }
 
-modal {
+/* modal {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -137,7 +137,7 @@ modal {
   padding: 20px;
   border-radius: 8px;
   box-shadow: '0 4px 8px rgba(0, 0, 0, 0.1)';
-}
+} */
 
 .Overlay {
   position: fixed;
@@ -147,3 +147,26 @@ modal {
   bottom: 0;
   background-color: 'rgba(0, 0, 0, 0.75)';
 }
+input::placeholder {
+  font-size: 14px;
+}
+.AddTeacher{
+    font-family: Georgia serif;
+    color:rgb(12, 12, 12);
+    font-weight: bold;
+    /* font-size: 35px; */
+    margin-top: 30px;
+  }
+
+.form-control option:hover{
+    border-radius: 5px;
+    padding-left:5px;
+}
+.form-control option:checked{
+  border-radius: 5px;
+  padding-left:5px;
+}
+.acad-qual{
+  background-color: #F2F0EC;
+}
+

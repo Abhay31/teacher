@@ -1,0 +1,55 @@
+.border1{
+    border: 2px solid black;
+}
+.AddSchool{
+    font-family: Georgia serif;
+    /* color:rgb(12, 12, 12); */
+    color:rgb(0, 37, 92);
+    font-weight: bold;
+    margin-top: 30px;
+
+    /* background: linear-gradient(-279deg, #94b0b3, #8686ad);
+    padding:10px;
+    margin: auto 60px auto 30px;
+    border-radius: 7px; */
+}
+
+.custom-select-wrapper {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .custom-select {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+  }
+  
+  .custom-select select {
+    display: inline-block;
+    width: 100%;
+    padding-right: 40px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-size: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .custom-select::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #000;
+    transform: translateY(-50%);
+  }

@@ -1,0 +1,31 @@
+.promotion-heading {
+    font-family: Georgia, serif;
+    color: rgb(12, 12, 12);
+    background-color: rgb(160, 216, 200);
+    padding: 3px 40px 3px 15px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  
+  .promotion-card {
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .promotion-card .card-body {
+    text-align: center;
+  }
+  
+  .promotion-card .btn-primary {
+    margin-top: 10px;
+  }
+  
+  .promotion-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  

@@ -1,0 +1,97 @@
+/* Existing styles */
+.bg-yellow {
+  background-color: rgb(241, 236, 236);
+  padding: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.teacher-photo {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+  border-radius: 50%;
+}
+
+.edit-icon {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.back-icon {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+
+.teacher-details h4 {
+  margin-top: 20px;
+}
+
+.teacher-details .row > .col-md-6 {
+  margin-bottom: 10px;
+}
+
+.teacher-details ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.teacher-details li {
+  margin-bottom: 5px;
+}
+
+/* New styles for toggle functionality */
+.toggle-header {
+  cursor: pointer;
+  color: #007bff;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-bottom: 1px solid #007bff;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures icon is at the far right */
+}
+
+.toggle-icon {
+  transition: transform 0.3s ease;
+}
+
+.toggle-header .fa-chevron-down {
+  transform: rotate(180deg);
+}
+
+/* Styles for the toggle content */
+.toggle-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+/* Center employee name and teacher subtype on small screens */
+@media (max-width: 767px) {
+  .teacher-details .row1 {
+    text-align: center;
+  }
+  .teacher-details .row > .col-md-6 {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+}
+
+.teacher-photo:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+.education-section {
+  background-color: rgb(202, 193, 193);
+  padding: 10px;
+  border-radius: 10px;
+}

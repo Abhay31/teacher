@@ -20,7 +20,7 @@
 
 .card-custom-height {
   height: 150px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4); /* Adding box shadow */
+  box-shadow: 0 7px 8px rgba(0, 0, 0, 0.6); /* Adding box shadow */
 }
 
 .card-custom-height1 {
@@ -33,19 +33,19 @@
 }
 
 .back1 {
-  background-color: #70ccd4;
+  background-color: #70ccd4 !important;
 }
 
 .back2 {
-  background-color: #7978e9;
+  background-color: #8987e0 !important;
 }
 
 .back3 {
-  background-color: #f3797e;
+  background-color: #d38285 !important;
 }
 
 .back4 {
-  background-color: #4b49ac;
+  background-color: #69b090 !important;
 }
 
 @media (max-width: 768px) {
@@ -78,7 +78,7 @@
 }
 
 .table-responsive {
-  max-height: 400px;
+  max-height: 350px;
   overflow-y: auto;
 }
 .btn-style {
@@ -99,4 +99,15 @@
 .custom-table td {
   vertical-align: middle;
   text-align: center;
+}
+
+.card1{
+  transition: all 500ms ease-in-out !important;
+  border: 1px solid rgb(77, 77, 77) !important;
+}
+.card1:hover {
+  margin-top: 10px !important;
+  /* cursor: pointer; */
+  box-shadow: 0px 10px 10px 0px rgb(74, 73, 73) !important;
+  transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1) !important;
 }

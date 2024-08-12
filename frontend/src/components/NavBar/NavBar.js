@@ -4,8 +4,9 @@ import img1 from "../../assets/img/logo.png";
 // import { FaBell } from "react-icons/fa";
 import { MdAccountCircle } from "react-icons/md";
 import { useNavigate } from "react-router-dom";
+import Avatar from "react-avatar";
 
-const NavBar = ({ user, setUser }) => {
+const NavBar = ({ user, setUser, username }) => {
   const navigate = useNavigate();
 
   const handleLogout = () => {
@@ -27,20 +28,21 @@ const NavBar = ({ user, setUser }) => {
           </button> */}
           <div className="dropdown">
             <button
-              className="btn btn-link dropdown-toggle"
+              className="btn btn-link dropdown-toggle "
               type="button"
               id="dropdownMenuButton"
               data-bs-toggle="dropdown"
               aria-expanded="false"
+              style={{color:'black'}}
             >
-              <MdAccountCircle size={30} />
-            </button>
+              <Avatar name={username} size={40} round={true} className="me-2"/>
+            </button >
             <ul
               className="dropdown-menu dropdown-menu-end"
               aria-labelledby="dropdownMenuButton"
             >
               <li>
-                <span className="dropdown-item-text">{capitalizeFirstLetter(user.name)}</span>
+                <span className="dropdown-item-text">{capitalizeFirstLetter(user.username)}</span>
               </li>
               <li>
                 <hr className="dropdown-divider" />

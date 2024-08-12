@@ -1,14 +1,59 @@
 .custom-table {
-    border-radius: 10px;
-    overflow: hidden;
-  }
-  
-  .custom-table thead th {
-    background-color: rgb(59, 56, 56);
-    color: #fff;
-  }
-  
-  .custom-table th, .custom-table td {
-    vertical-align: middle;
-    text-align: center;
-  }
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.custom-table thead th {
+  background-color: rgb(59, 56, 56);
+  color: #fff;
+}
+
+.custom-table th,
+.custom-table td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+    box-shadow: none;
+    border-color: inherit;
+}
+
+.seniorityheading{
+  font-family: Georgia serif;
+  color:rgb(12, 12, 12);
+  background-color: rgb(160, 216, 200);
+  padding: 3px 40px 3px 15px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.page-item {
+  margin: 0 5px;
+}
+
+.page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.page-link {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.search:hover{
+  cursor: pointer;
+}
